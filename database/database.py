@@ -37,4 +37,4 @@ with open(csv_file, "a+", newline="") as csvfile:
         writer.writeheader()
     writer.writerows(data)
 
-print("Saved")
+print("Savedv")
