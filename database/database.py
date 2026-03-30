@@ -3,9 +3,9 @@ import os
 
 print("Dont manually change the csv file")
 
-folder_path = os.path.dirname(__file__)
+folder_path = os.path.dirname(__file__) 
 
-# Full path to CSV
+# Full path to CSV.
 csv_file = os.path.join(folder_path, "Study_progress.csv")
 
 file_size = 0
@@ -37,4 +37,4 @@ with open(csv_file, "a+", newline="") as csvfile:
         writer.writeheader()
     writer.writerows(data)
 
-
+print("Saved")
